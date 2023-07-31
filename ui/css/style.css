@@ -1,0 +1,111 @@
+.intro {  
+  display: none;
+}
+
+html,
+body,
+.intro {
+  height: 100%;
+  background: transparent;
+}
+
+.table-wrapper {
+  max-height: 500px;
+  overflow: auto;
+}
+
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card {
+  border-radius: .5rem;
+}
+.bg-image .h-100 {
+  background: transparent;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.badge {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.prio-text{
+  float: left;
+  padding: 5px 15px 5px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  width: auto;
+  height: auto;
+  text-align: center;
+  background-color: rgb(87, 197, 244);
+  text-transform: uppercase;
+  border-radius: 8px;
+  margin-top: 32%;
+  margin-left: 10px;
+  display: none;
+}
+
+
+.btns-holder {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-btns {
+  width: 200px;
+  height: 160px;
+  margin: 20px;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.img-btns p {
+  width: 100%;
+  position: absolute;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px;
+  text-align: center;
+  top: 50%;   
+  left: 50%;
+  z-index: 999999999;
+  transform: translate(-50%, -50%);
+}
+
+.img-btns img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.active {
+  background-color: #00e600;
+}
+
+.inactive {
+  background-color: #e60000;
+}
+
+
+
